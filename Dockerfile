@@ -20,10 +20,10 @@ RUN clawhub install Gog || true
 RUN clawhub install agent-browser || true
 RUN clawhub install google-photos || true
 RUN clawhub install google-web-search || true
-RUN clawhub install chrome-enterprise || true   # ✅ Chrome browser & ChromeOS management
 RUN clawhub install google-maps || true         # ✅ Google Maps & Location APIs
 RUN clawhub install outlook || true             # ✅ Microsoft Outlook integration
 RUN clawhub install office || true              # ✅ Microsoft Office (Word, Excel, PowerPoint)
+RUN clawhub install facebook || true
 
 # Install useful CLI tools and build dependencies
 RUN apt-get update && apt-get install -y \
