@@ -14,21 +14,13 @@ RUN npm install -g --unsafe-perm clawhub
 RUN clawhub install calendar || true
 RUN clawhub install google-workspace || true
 RUN clawhub install finance || true
-RUN clawhub install gog || true
+RUN clawhub install pdf || true
 RUN clawhub install gogcli || true
-RUN clawhub install shopping-expert || true
-RUN clawhub install bring-shopping || true
-RUN clawhub install bring-add || true
-RUN clawhub install gurkerl || true
-RUN clawhub install gurkerlcli || true
-RUN clawhub install agentic-spicy-food || true
-RUN clawhub install wishfinity || true
-RUN clawhub install anylist || true
-RUN clawhub install agentic-commerce || true
-RUN clawhub install language-learning || true
-RUN clawhub install japanese-tutor || true
+RUN clawhub install Gog || true
+RUN clawhub install agent-browser || true
+RUN clawhub install google-photos || true
+RUN clawhub install google-web-search || true
 RUN clawhub install chrome-enterprise || true   # ✅ Chrome browser & ChromeOS management
-RUN clawhub install pdf-tools || true           # ✅ PDF generation & parsing
 RUN clawhub install google-maps || true         # ✅ Google Maps & Location APIs
 RUN clawhub install outlook || true             # ✅ Microsoft Outlook integration
 RUN clawhub install office || true              # ✅ Microsoft Office (Word, Excel, PowerPoint)
