@@ -1,5 +1,5 @@
 # Use the official Moltbot image with the correct tag
-FROM ghcr.io/openclaw/moltbot:main
+FROM ghcr.io/openclaw/openclaw:main
 
 # Switch to root to install global packages
 USER root
